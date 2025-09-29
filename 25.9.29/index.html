@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내 블로그 | [본인 이름]의 첫 시맨틱 포스트</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>[나만의 블로그 이름]</h1>
+        <p>코딩과 일상, 내가 기록하고 싶은 모든 것</p>
+        <nav>
+            <ul>
+                <li><a href="#">자기소개</a></li>
+                <li><a href="#">코딩 일기</a></li>
+                <li><a href="#">취미 생활</a></li>
+                <li><a href="#">연락하기</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <header>
+                <h2>내가 좋아하는 장소를 소개합니다.</h2>
+                <p>작성자: 홍길동 | 작성일: <time datetime="2025-09-29">2025년 9월 29일</time></p>
+            </header>
+
+            <section>
+                <h3>맘스란</h3>
+                <p>맘스란 맘스키친의 줄임말입니다. 맘스키친에서는 어머니의 손맛을 경험할 수 있습니다.</p>
+            </section>
+
+            <section>
+                <h3>이미지 첨부</h3>
+                <figure>
+                    <img src="mom's.jpg" alt="맘스 사진">
+                    <!-- figcaption은 부모 태그인 figure 태그 안에서만 사용 -->
+                    <figcaption>Fig 1. 이 사진은 2014년 맘스키친 사진입니다.</figcaption>
+                </figure>
+                <p>맘스에서 제가 제일 좋아하는 음식은 치즈돈까스 입니다.</p>
+            </section>
+
+        </article>
+
+        <aside>
+            <h3>다른 글 보러가기</h3>
+            <ul>
+                <li><a href="#">한동에서의 이야기</a></li>
+                <li><a href="#">나의 새새 이야기</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 [본인 이름]의 블로그. All rights reserved.</p>
+        <address>
+            <!-- mailtoL 프로토콜을 사용하면 클릭했을 때 이메일 작성 기능 활성화 -->
+            이메일: <a href="mailto:myemail@example.com">myemail@example.com</a>
+        </address>
+    </footer>
+</body>
+</html>

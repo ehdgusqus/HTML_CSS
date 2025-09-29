@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML</title>
+    <!-- <link rel="stylesheet" href="style3.css"> -->
+</head>
+<body>
+    <!-- <header>: 웹 페이지의 가장 상단에 위치하는 머리글 -->
+    <header> 
+        <h1>나의 웹 사이트</h1>
+        <!-- <nav> 내비게이션 링크를 담는 영역 -->
+        <nav>
+            <ul>
+                <li><a href="#">소개</a></li>
+                <li><a href="#">블로그</a></li>
+                <li><a href="#">갤러리</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- <main>: 웹 페이지의 핵심 콘텐츠를 담는 영역. 페이지당 하나만 사용 -->
+    <main>
+        <!-- <section>: 특정 주제를 나타낼 때 사용 -->
+        <section id="introduction">
+            <h2>웹사이트 소개</h2>
+            <p>이 웹사이트는 제가 만든 다양한 작업물과 생각을 공유하는 공간입니다.</p>
+        </section>
+
+        <section id="blog-posts">
+            <h2>최신 글</h2>
+            <!-- <article>: 독립적으로 존재할 수 있는 콘텐츠 -->
+            <article>
+                <h3>첫 번째 블로그 게시글 제목</h3>
+                <p>이것은 첫 번째 게시글의 내용입니다. 독립적인 콘텐츠이므로 article 태그를 사용했습니다.</p>
+            </article>
+            <article>
+                <h3>두 번째 블로그 게시글 제목</h3>
+                <p>이것은 두 번째 게시글의 내용입니다.</p>
+            </article>
+        </section>
+
+        <!-- <aside>: 보조적인 정보. 사이드바나 관련 링트 목록 -->
+        <aside>
+            <h3>관련 링크</h3>
+            <ul>
+                <li><a href="#">CSS 배우기</a></li>
+                <li><a href="#">HTML 기본 가이드</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <!-- <footer>: 웹 페이지의 바닥글 -->
+    <footer>
+        <p>저작권 정보 &copy; yourName</p>
+    </footer>
+</body>
+</html>
