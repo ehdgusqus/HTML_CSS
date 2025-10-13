@@ -1,4 +1,3 @@
-/* 기본 스타일 초기화 */
 * {
     box-sizing: border-box; 
     margin: 0; 
@@ -18,7 +17,7 @@ h1, h2 {
 }
 
 h2 {
-    text-align: center; /* 섹션 제목 중앙 정렬 */
+    text-align: center; 
     font-size: 2em;
 }
 
@@ -40,7 +39,7 @@ a {
 .section {
     padding: 60px 20px;
     max-width: 1000px;
-    margin: 0 auto; /* 섹션 중앙 정렬 */
+    margin: 0 auto; /* 중앙 정렬 */
     text-align: center;
 }
 
