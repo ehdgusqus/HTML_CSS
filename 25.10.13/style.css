@@ -27,6 +27,7 @@ a {
     color: #007bff;
 }
 
+/* 버튼 클래스 */
 .btn {
     display: inline-block;
     background-color: #007bff;
