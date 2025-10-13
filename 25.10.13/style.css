@@ -64,7 +64,9 @@ header {
     padding: 0 20px;
     
     display: flex; /* 컨테이너 선언 */
-    justify-content: space-between; /* Main Axis 정렬: 로고와 메뉴를 양 끝으로 분리 */
+    /* 수정 1*/
+    justify-content: center; /* Main Axis 정렬: 로고와 메뉴를 양 끝으로 분리 */ 
+    /* 수정 1*/
     align-items: center; /* Cross Axis 정렬: 수직 중앙 정렬 */
 }
 
@@ -134,7 +136,7 @@ nav a {
 }
 
 .dark-bg .project-card {
-    background-color: #f4f4f9; /* 어두운 배경에서 카드 배경색 변경 */
+    background-color: #f4f4f9; 
     color: #333;
 }
 
@@ -152,7 +154,9 @@ footer {
     padding: 0 20px;
     
     display: flex; /* 컨테이너 선언 */
-    justify-content: space-between; /* 텍스트를 양 끝으로 분리 */
+    /* 수정 2 */
+    justify-content: center; /* 텍스트를 양 끝으로 분리 */
+    /* 수정 2 */
     align-items: center; /*  수직 중앙 정렬 */
     font-size: 0.9em;
 }
