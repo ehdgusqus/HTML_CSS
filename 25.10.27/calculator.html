@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>계산기 및 큰 수 찾기</title>
+    
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+    <h1>사칙 연산 계산기</h1>
+    <div class="form-container">
+        <form id="calcForm"> 
+            <label for="num1_calc">첫 번째 숫자</label>
+            <input type="text" id="num1_calc" name="num1_calc" placeholder="예: 10">
+
+            <label for="operator">연산자 (+, -, *, /)</label>
+            <input type="text" id="operator" name="operator" placeholder="예: +">
+
+            <label for="num2_calc">두 번째 숫자</label>
+            <input type="text" id="num2_calc" name="num2_calc" placeholder="예: 5">
+
+            <button type="submit" id="calcSubmitButton">=</button>
+        </form>
+        <p class="result" id="calcResult">계산 결과가 여기에 표시됩니다.</p>
+    </div>
+
+    <h1>큰 수 찾기</h1>
+    <div class="form-container">
+        <form id="maxForm">
+            <label for="num1_max">첫 번째 숫자</label>
+            <input type="text" id="num1_max" name="num1_max" placeholder="숫자를 입력하세요">
+
+            <label for="num2_max">두 번째 숫자</label>
+            <input type="text" id="num2_max" name="num2_max" placeholder="숫자를 입력하세요">
+
+            <label for="num3">세 번째 숫자</label>
+            <input type="text" id="num3_max" name="num3_max" placeholder="숫자를 입력하세요">
+
+            <button type="submit" id="findMaxButton">완료</button>
+        </form>
+        <p class="result" id="maxResult">가장 큰 수가 여기에 표시됩니다.</p>
+    </div>
+    
+    </body>
+
+</html>

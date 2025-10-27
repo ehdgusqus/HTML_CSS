@@ -66,7 +66,7 @@ header {
     
     display: flex; /* 컨테이너 선언 */
     /* 수정 1*/
-    justify-content: center; /* Main Axis 정렬: 로고와 메뉴를 양 끝으로 분리 */ 
+    justify-content: space-between; /* Main Axis 정렬: 로고와 메뉴를 양 끝으로 분리 */ 
     /* 수정 1*/
     align-items: center; /* Cross Axis 정렬: 수직 중앙 정렬 */
 }
@@ -156,7 +156,7 @@ footer {
     
     display: flex; /* 컨테이너 선언 */
     /* 수정 2 */
-    justify-content: center; /* 텍스트를 양 끝으로 분리 */
+    justify-content: space-between; /* 텍스트를 양 끝으로 분리 */
     /* 수정 2 */
     align-items: center; /*  수직 중앙 정렬 */
     font-size: 0.9em;

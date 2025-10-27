@@ -1,0 +1,103 @@
+/* 기본 스타일 및 초기화 */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #e9ecef;
+    color: #333;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #007bff;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+/* 폼 컨테이너 공통 스타일 */
+.form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 30px;
+}
+
+/* 레이블 및 입력 그룹 스타일 */
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #28a745;
+    /* 포커스 시 색상 변경 */
+    outline: none;
+}
+
+/* 버튼 공통 스타일 */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    color: white;
+}
+
+/* 사칙연산 계산기 버튼 스타일 */
+#calcSubmitButton {
+    background-color: #007bff;
+}
+
+#calcSubmitButton:hover {
+    background-color: #0056b3;
+}
+
+/* 큰 수 찾기 버튼 스타일 */
+#findMaxButton {
+    background-color: #28a745;
+}
+
+#findMaxButton:hover {
+    background-color: #1e7e34;
+}
+
+/* 결과 표시 영역 */
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+    min-height: 40px;
+}

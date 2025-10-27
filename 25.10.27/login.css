@@ -1,0 +1,77 @@
+/* 모든 요소에 적용될 초기화 및 기본 폰트 설정 */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* body: 배경 설정 및 폼을 화면 중앙에 배치 */
+body {
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* 뷰포트 전체 높이를 차지하도록 설정 */
+}
+
+/* form: 폼 컨테이너 스타일 */
+#loginForm {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+
+/* label: 레이블 스타일 */
+label {
+    display: block;
+    /* 한 줄 전체를 차지하도록 설정 */
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* input: 입력 필드 스타일 */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #007bff;
+    /* 포커스 시 테두리 색상 변경 */
+    outline: none;
+}
+
+/* button: 로그인 버튼 스타일 */
+#loginButton {
+    width: 100%;
+    padding: 12px;
+    margin-top: 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#loginButton:hover {
+    background-color: #0056b3;
+    /* 마우스 오버 시 색상 변경 */
+}
